@@ -20,5 +20,6 @@ jobs:
       needs: build
       runs-on: ubuntu-latest
 
-      name: Deployed
-      run:  echo "App deployed successfully "
+      steps:
+        - name: Deployed
+          run: echo "App deployed successfully "
